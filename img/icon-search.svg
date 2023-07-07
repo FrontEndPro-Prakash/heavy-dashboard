@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Tata-cornell/Table-view-2" transform="translate(-1343.000000, -325.000000)" fill="#006699" stroke="#006699">
+            <g id="actions-copy" transform="translate(1072.000000, 323.000000)">
+                <path d="M272,13.9074937 C274.292929,16.5697072 275.81257,18.4636153 276.558924,19.5892178 C277.200346,17.6263413 281.447122,12.0269745 289.29925,2.79111746 L276.558924,14.8033052 L272,13.9074937 Z" id="Icon/Search"></path>
+            </g>
+        </g>
+    </g>
+</svg>

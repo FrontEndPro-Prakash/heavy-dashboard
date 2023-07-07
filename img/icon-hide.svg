@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.50209205,7.49790795 L17.4705882,7.49790795 C17.7629743,7.49790795 18,7.72270222 18,8 C18,8.27729778 17.7629743,8.50209205 17.4705882,8.50209205 L9.50209205,8.50209205 L9.50209205,15.9058824 C9.50209205,16.1982684 9.27729778,16.4352941 9,16.4352941 C8.72270222,16.4352941 8.49790795,16.1982684 8.49790795,15.9058824 L8.49790795,8.50209205 L0.529411765,8.50209205 C0.237025721,8.50209205 1.13686838e-13,8.27729778 1.13686838e-13,8 C1.13686838e-13,7.72270222 0.237025721,7.49790795 0.529411765,7.49790795 L8.49790795,7.49790795 L8.49790795,0.0941176471 C8.49790795,-0.198268397 8.72270222,-0.435294118 9,-0.435294118 C9.27729778,-0.435294118 9.50209205,-0.198268397 9.50209205,0.0941176471 L9.50209205,7.49790795 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.-Map" transform="translate(-1384.000000, -138.000000)">
+            <g id="Icon/Close" transform="translate(1391.000000, 145.000000) rotate(45.000000) translate(-1391.000000, -145.000000) translate(1382.000000, 137.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-2)" x="-3" y="-4" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

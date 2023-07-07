@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="13.75" viewBox="0 0 20 13.75">
+  <g id="Group_5" data-name="Group 5" transform="translate(-448.544 -1101.686)">
+    <g id="email" transform="translate(448.544 1021.686)">
+      <g id="Group_2" data-name="Group 2" transform="translate(0 80)">
+        <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+          <path id="Path_1" data-name="Path 1" d="M18.75,80H1.25A1.156,1.156,0,0,0,0,81.029v.585L10,85.1l10-3.486v-.584A1.156,1.156,0,0,0,18.75,80Z" transform="translate(0 -80)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(0 82.731)">
+        <g id="Group_3" data-name="Group 3" transform="translate(0 0)">
+          <path id="Path_2" data-name="Path 2" d="M10.244,169.324a.589.589,0,0,1-.488,0L0,164.96v9.7a1.287,1.287,0,0,0,1.25,1.32h17.5a1.287,1.287,0,0,0,1.25-1.32v-9.7Z" transform="translate(0 -164.96)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

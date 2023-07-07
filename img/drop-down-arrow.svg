@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Drop down arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.738514747,0.131500718 C0.542486525,-0.0755048693 0.256444437,-0.033552073 0.0996218594,0.225204912 C-0.0572007177,0.483961896 -0.0254182634,0.861537063 0.170609958,1.06854265 L4.71606611,5.86853938 C4.88207464,6.04384421 5.11796236,6.04384421 5.28397089,5.86853938 L9.82942704,1.06854265 C10.0254553,0.861537063 10.0572377,0.483961896 9.90041514,0.225204912 C9.74359256,-0.033552073 9.45755047,-0.0755048693 9.26152225,0.131500718 L5.0000185,4.63164403 L0.738514747,0.131500718 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tata-cornell/Table-view-1" transform="translate(-1143.000000, -333.000000)">
+            <g id="Icon/Drop-down-arrow" transform="translate(1143.000000, 333.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Path" fill="#52C0C3" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#6B8992" mask="url(#mask-2)" x="-3" y="-5" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="13px" viewBox="0 0 5 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3,11.1754267 L4.08394119,9.99082434 C4.23711416,9.82342683 4.54754223,9.77819267 4.77730169,9.88979101 C5.00706116,10.0013893 5.06914677,10.2275602 4.9159738,10.3949577 L2.9160163,12.5806429 C2.71810949,12.7969285 2.28189051,12.7969285 2.0839837,12.5806429 L0.0840262037,10.3949577 C-0.0691467702,10.2275602 -0.00706115557,10.0013893 0.222698305,9.88979101 C0.452457766,9.77819267 0.762885839,9.82342683 0.916058813,9.99082434 L2,11.1754267 L2,0.789346589 C2,0.353402505 2.22385763,0 2.5,0 C2.77614237,0 3,0.353402505 3,0.789346589 L3,11.1754267 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Tata-cornell/Table-view-1" transform="translate(-68.000000, -168.000000)">
+            <g id="Header/Table" transform="translate(0.000000, 155.000000)">
+                <g id="Table/header">
+                    <g id="Group-2" transform="translate(24.000000, 13.000000)">
+                        <g id="download" transform="translate(46.500000, 6.500000) scale(1, -1) translate(-46.500000, -6.500000) translate(44.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-2)" x="-10" y="-5" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

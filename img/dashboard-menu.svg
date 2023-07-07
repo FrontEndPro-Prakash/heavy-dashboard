@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fpos-and-agencies-in-a-region-1" transform="translate(-711.000000, -61.000000)" fill-rule="nonzero" stroke="#073949">
+            <g id="Header">
+                <g id="Icon/Dashboard" transform="translate(711.000000, 61.000000)">
+                    <path d="M0.5,8.38888889 L6.61111111,8.38888889 L6.61111111,0.5 L0.5,0.5 L0.5,8.38888889 Z" id="Path" fill="#FFFFFF"></path>
+                    <path d="M0.5,15.5 L6.61111111,15.5 L6.61111111,11.1666667 L0.5,11.1666667 L0.5,15.5 Z" id="Path" fill="#073949"></path>
+                    <path d="M9.38888889,15.5 L15.5,15.5 L15.5,7.61111111 L9.38888889,7.61111111 L9.38888889,15.5 Z" id="Path" fill="#FFFFFF"></path>
+                    <path d="M9.38888889,0.5 L9.38888889,4.83333333 L15.5,4.83333333 L15.5,0.5 L9.38888889,0.5 Z" id="Path" fill="#073949"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

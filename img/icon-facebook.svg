@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20">
+  <g id="Group_1" data-name="Group 1" transform="translate(-270 -883)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-88 488)">
+      <g id="icon-facebook" transform="translate(358 395)">
+        <g id="Group_1-2" data-name="Group 1">
+          <path id="Path_1" data-name="Path 1" d="M134.25,6.875v-2.5a1.25,1.25,0,0,1,1.25-1.25h1.25V0h-2.5a3.75,3.75,0,0,0-3.75,3.75V6.875H128V10h2.5V20h3.75V10h2.5L138,6.875Z" transform="translate(-128)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

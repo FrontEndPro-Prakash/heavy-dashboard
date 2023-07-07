@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/Table_Unselected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fpos-and-agencies-in-a-region-1" transform="translate(-956.000000, -122.000000)" stroke="#006699" stroke-width="1.2">
+            <g id="Header">
+                <g id="view-switcher" transform="translate(907.000000, 109.000000)">
+                    <g id="Icon/Table_Unselected" transform="translate(49.000000, 13.095238)">
+                        <g id="Map/Icon">
+                            <rect id="Rectangle" x="0.6" y="0.6" width="18" height="12.2095238" rx="1.2"></rect>
+                            <path d="M6.6,4.26666667 L6.6,0.60952381 L6.6,4.26666667 L12.6,4.26666667 L12.6,0.60952381 L12.6,4.26666667 L18.6,4.26666667 L12.6,4.26666667 L12.6,12.8 L12.6,4.26666667 L6.6,4.26666667 L6.6,12.8 L6.6,4.26666667 L0.6,4.26666667 L6.6,4.26666667 Z" id="Combined-Shape" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

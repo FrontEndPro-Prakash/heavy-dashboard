@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>FPO Database</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="img/favicon/android-chrome-256x256.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Range slider style -->
+    <link rel="stylesheet" href="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/css/jqueryui.min.css">
+    <link rel="stylesheet" href="https://rawgit.com/simeydotme/jQuery-ui-Slider-Pips/master/dist/jquery-ui-slider-pips.css">
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Header view -->
+    <header class="main-header">
+        <!-- Top header -->
+        <div class="fpo-header-top">
+            <div class="fpo-header-left">
+                <a href="javascript:void(0);" class="university-logo"><img src="img/cornell-university-white.svg"></a>
+                <a href="javascript:void(0);" class="email-block"><img src="img/icon-email.svg">TCI email comes here</a>
+            </div>
+            <div class="fpo-header-right">
+                <a class="social-icons" href="https://www.facebook.com/" target="_blank"><img src="img/icon-facebook.svg"></a>
+                <a class="social-icons" href="https://www.instagram.com/" target="_blank"><img src="img/icon-instagram.svg"></a>
+                <a class="social-icons" href="https://twitter.com/" target="_blank"><img src="img/icon-twitter.svg"></a>
+                <a class="social-icons" href="https://dribbble.com/" target="_blank"><img src="img/icon-dribbble.svg"></a>
+            </div>
+        </div>
+        <!-- Top header -->
+        <!-- Main header -->
+        <div class="fpo-header-bottom">
+            <nav class="navbar navbar-expand-xl navbar-light">
+                <!-- Main logo -->
+                <a href="#" class="navbar-brand FPO-logo"><img src="img/fpo-logo.png" alt="" />FPO</a>
+                <!-- Main logo -->
+                <span class="FPO-logo-divider"></span>
+                <!-- Cornell logo -->
+                <a href="#" class="navbar-brand tata-cornell-logo"><img src="img/tata-cornell-institute.svg" alt="" />Tata Cornell Institute</a>
+                <!-- Cornell logo -->
+                <span class="FPO-logo-txt">Center<br />of excellence</span>
+                <!-- Navbar menu and login button-->
+                <div class="nav-setting">
+                    <!-- Login button -->
+                    <a href="javascript:void(0);" class="btn btn-success fpo-reg-btn">Register / Login</a>
+                    <!-- Login button -->
+                    <!-- Navbar menu -->
+                    <div class="collapse navbar-collapse fpo-primary-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="dashboard.html"><img src="img/dashboard-menu.svg" alt=""> Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="img/comparisions-menu.svg" alt=""> Comparisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="img/summaries-menu.svg" alt=""> Summaries</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img src="img/about-menu.svg" alt=""> About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Navbar menu -->
+                </div>
+                <!-- Navbar menu and login button-->
+                <!-- Toggle menu button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Toggle menu button -->
+            </nav>
+        </div>
+        <!-- Main header -->
+    </header>
+    <!-- Header view -->
+    <!-- body view -->
+    <section class="main-body">
+        <!-- Map and Table view -->
+        <div class="content-body">
+            <!-- Tabs view -->
+            <ul class="main-body-tab">
+                <li><a class="map-tab active" href="javascript:void(0);"><img src="img/icon-map.svg"></a></li>
+                <li><a class="table-tab" href="javascript:void(0);"><img src="img/icon-table.svg"></a></li>
+                <li class="camera-view"><a href="javascript:void(0);"><img src="img/icon-camera.svg"></a></li>
+                <li class="download-view" style="display: none;"><a href="javascript:void(0);"><img src="img/icon-download.svg"></a></li>
+            </ul>
+            <!-- Tabs view -->
+            <!-- Map view -->
+            <iframe class="map-view" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30703620.672472216!2d64.41390989859407!3d20.050418843029927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1610365528088!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;height: 100%;float: left;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <!-- Map view -->
+            <!-- Table view -->
+            <div class="table-view" style="display: none;">
+                <h4>Food Production Organisations (5467)</h4>
+                <div class="table-style">
+                    <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Index <a href="javascript:void(0);"><img src="img/icon-descending-order.svg"></a></th>
+                                <th>Location</th>
+                                <th>FP0 Name</th>
+                                <th>Sponser agency</th>
+                                <th>Farmers</th>
+                                <th>Crops</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Telangana <span>Hyderabad, Medak</span></td>
+                                <td>Peapully Farmers Producer Company Limited</td>
+                                <td>Non - SFAC_MSAMB</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Rajasthan <span>Hyderabad, Medak</span></td>
+                                <td><div class="icon-set"><img src="img/icon-verified.svg"> Sri Ramanjaneya Farmer Producer Company Limited</div></td>
+                                <td>NABARD</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Punjab <span>Hyderabad, Medak</span></td>
+                                <td><div class="icon-set"><img src="img/icon-shutdown.svg"> Simhadri Farmer Producer Company Limited</div></td>
+                                <td>Non - SFAC_MSAMB</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Arunachal pradesh <span>Hyderabad, Medak</span></td>
+                                <td><div class="icon-set"><img src="img/icon-active.svg"> Meliaputti Tribal Farmer Services Producer Company Limited</div></td>
+                                <td>NABARD</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Andhra pradesh <span>Hyderabad, Medak</span></td>
+                                <td><div class="icon-set"><img src="img/icon-verified.svg"> Kotturu Tribal Farmers Services Producer Company Limited</div></td>
+                                <td>Non - SFAC_MSAMB</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Maharastra <span>Hyderabad, Medak</span></td>
+                                <td>Papumpare vegetablesfarmer's Cooperative Society ltd.</td>
+                                <td>NABARD</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Gujarath <span>Hyderabad, Medak</span></td>
+                                <td><div class="icon-set"><img src="img/icon-active.svg"> Lower Subansiri vegetablesgrower's Cooperative Society</div></td>
+                                <td>Non - SFAC_MSAMB</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>West bengal <span>Hyderabad, Medak</span></td>
+                                <td><div class="icon-set"><img src="img/icon-verified.svg"> Amlighat Banana Producer Company Limited</div></td>
+                                <td>Non - SFAC_MSAMB</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>West bengal <span>Hyderabad, Medak</span></td>
+                                <td><div class="icon-set"><img src="img/icon-verified.svg"> Ampri Orange Producer Company Limited</div></td>
+                                <td>Non - SFAC_MSAMB</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>West bengal <span>Hyderabad, Medak</span></td>
+                                <td><div class="icon-set"><img src="img/icon-verified.svg"> Merapni Agro Producer Company Limited</div></td>
+                                <td>Non - SFAC_MSAMB</td>
+                                <td>1.5K</td>
+                                <td>84</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagination-set">
+                        <p>Showing 10 of 5770 FPOs</p>
+                        <div class="pagination">
+                            <a class="" href="javascript:void(0);"><img src="img/icon-left-arrow.svg"></a>
+                            <a class="active" href="javascript:void(0);">1</a>
+                            <a class="" href="javascript:void(0);">2</a>
+                            <a class="" href="javascript:void(0);">3</a>
+                            <a class="" href="javascript:void(0);">...</a>
+                            <a class="" href="javascript:void(0);">10</a>
+                            <a class="" class="" href="javascript:void(0);"><img src="img/icon-right-arrow.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Table view -->
+            <div class="graph-popup">
+                <div class="graph-header">
+                    <div class="graph-title">
+                        <p>FPOs and agencies in a region</p>
+                        <div class="icons-holder">
+                            <div class="graph-slide" style="display: none;">
+                                <ul>
+                                    <li><a href="javascript:void(0)">< Previous graph</a></li>
+                                    <li><a href="javascript:void(0)">Next graph ></a></li>
+                                </ul>
+                            </div>
+                            <a class="expend-icon" href="javascript:void(0);">
+                                <img src="img/icon-expand.svg">
+                                <img src="img/icon-close.svg" style="display: none;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="left-info-row">
+                        <div class="left-info-col">
+                            <h3>5077</h3>
+                            <span>Total no. of FPOs</span>
+                        </div>
+                        <div class="left-info-col">
+                            <h3>62.3 K</h3>
+                            <span>Total no. of Farmers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="graph-body">
+                    <div class="graph-block">
+                        <figure class="highcharts-figure">
+                          <div id="fpo_chart_type1"></div>  
+                        </figure>
+                    </div>
+                </div>
+                <div class="graph-footer">
+                    <a class="btn btn-link btn-block text-left other-metrics" data-toggle="collapse" href="#metrics-view" role="button" aria-expanded="false" aria-controls="metrics-view">Other Metrics (3) <img class="down-arrow" src="img/drop-down-arrow.svg"></a>
+                    <div class="collapse show" id="metrics-view">
+                        <div id="elem">
+                            <ul class="select-graph">
+                                <li class="active"><a href="javascript:void(0);"><img src="img/icon-map.svg">Farmers under a Sponsoring Agency</a></li>
+                                <!-- <li><a href="javascript:void(0);"><img src="img/icon-map.svg">Tamilnadu</a></li>
+                                <li><a href="javascript:void(0);"><img src="img/icon-map.svg">Uttar pradesh</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Map and Table view -->
+        <!-- Sidebar view -->
+        <aside class="main-sidebar">
+            <div class="aside-header">
+                <p>SUMMARY <small>(CUMULATIVE)</small></p>
+                <div class="infobox">
+                    <div class="left-info">
+                        <div class="left-info-row">
+                            <div class="left-info-col">
+                                <h3>32</h3>
+                                <span>States</span>
+                            </div>
+                            <div class="left-info-col">
+                                <h3>7</h3>
+                                <span>Union territories</span>
+                            </div>
+                        </div>
+                        <div class="left-info-row">
+                            <div class="left-info-col">
+                                <h3>5077</h3>
+                                <span>FPO</span>
+                            </div>
+                            <div class="left-info-col">
+                                <h3>72</h3>
+                                <span>Crops</span>
+                            </div>
+                            <div class="left-info-col">
+                                <h3>1.41<small>M</small></h3>
+                                <span>Shareholders</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <h3><small>₹</small>4.41<small>B</small></h3>
+                        <span>Revenue</span>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-tab-col">
+                <div class="aside-tab-header">
+                    <!-- tab navbar -->
+                    <ul class="nav nav-tabs custom-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="filters-tab" data-toggle="tab" href="#filters-col" role="tab" aria-controls="home" aria-selected="true">Filters<span class="round-border"></span></a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="saved-tab" data-toggle="tab" href="#saved-col" role="tab" aria-controls="profile" aria-selected="false">Saved<span class="round-border"></span></a>
+                        </li>
+                    </ul>
+                    <!-- tab navbar -->
+                </div>
+                <!-- tab content -->
+                <div class="tab-content info-tabs">
+                    <div class="info-filters tab-pane fade show active" id="filters-col" role="tabpanel" aria-labelledby="filters-tab">
+                        <!-- aside toolbar -->
+                        <div class="toolbar">
+                            <!-- date col -->
+                            <div class="date-toolbar dropdown">
+                                <a class="date-tool dropdown-toggle" href="javascript:void(0);" id="date-range-col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Since 2019 <img src="img/drop-down-arrow.svg"></a>
+                                <div class="dropdown-menu custom-dropdown" aria-labelledby="date-range-col">
+                                    <form>
+                                        <ul class="date-module">
+                                            <li>
+                                                <label class="radio-box">
+                                                    <input type="radio" name="select-year" checked="">
+                                                    <span>Specific year</span>
+                                                    <select class="year-select">
+                                                        <option value="0">2019</option>
+                                                        <option value="1">2020</option>
+                                                        <option value="2">2021</option>
+                                                    </select>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="radio-box">
+                                                    <input type="radio" name="select-year">
+                                                    <span>Date range</span>
+                                                </label>
+                                                <label class="select-range disable-radio">
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="fpos">
+                                                        <span>From</span>
+                                                        <select class="year-select">
+                                                            <option value="0">2019</option>
+                                                            <option value="1">2020</option>
+                                                            <option value="2">2021</option>
+                                                        </select>
+                                                    </label>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="fpos">
+                                                        <span>Till</span>
+                                                        <select class="year-select">
+                                                            <option value="0">2019</option>
+                                                            <option value="1">2020</option>
+                                                            <option value="2">2021</option>
+                                                        </select>
+                                                    </label>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- date col -->
+                            <!-- tool col -->
+                            <div class="other-toolbar">
+                                <a class="reset-tool" href="javascript:void(0);"><img src="img/icon-reset.svg"></a>
+                                <a class="save-tool dropdown-toggle" href="javascript:void(0);" id="save-change" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icon-save.svg"></a>
+                                <div class="dropdown-menu custom-dropdown save-dropdown" aria-labelledby="save-change">
+                                    <form>
+                                        <div class="save-module">
+                                            <input type="text" placeholder="Add a name to save the query">
+                                            <div class="btns-block">
+                                                <a href="javascript:void(0);" class="btn">Cancel</a>
+                                                <a href="javascript:void(0);" class="btn btn-info">Save</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <a class="search-tool" href="javascript:void(0);"><img src="img/icon-search.svg"> Search</a>
+                            </div>
+                            <!-- tool col -->
+                        </div>
+                        <!-- aside toolbar -->
+                        <div class="aside-scroll">
+                            <div class="accordion" id="info-accordion">
+                                <!-- FPOs accordion -->
+                                <div class="card">
+                                    <a class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#pfos-text" aria-expanded="true" aria-controls="pfos-text">FPOs <img class="down-arrow" src="img/drop-down-arrow.svg"></a>
+                                    <div id="pfos-text" class="collapse show" aria-labelledby="pfos-text" data-parent="#info-accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li>
+                                                    <label class="check-box check-all">
+                                                        <input type="checkbox" name="fpos">
+                                                        <span>All</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="fpos">
+                                                        <span>Verified</span>
+                                                        <img src="img/icon-verified.svg">
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="fpos">
+                                                        <span>Unverified</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="fpos">
+                                                        <span>Peapully Farmers Producer Company</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box input-field">
+                                                        <input type="checkbox" name="fpos">
+                                                        <span></span>
+                                                        <input type="text" placeholder="search an FPO">
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                            <div class="info-txt"><p>Some FPOs do not have crop data and financial data</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FPO status accordion -->
+                                <div class="card">
+                                    <a class="btn btn-link btn-block text-left collapsed" data-toggle="collapse" data-target="#pfos-status" aria-expanded="false" aria-controls="pfos-status">FPO status <img class="down-arrow" src="img/drop-down-arrow.svg"></a>
+                                    <div id="pfos-status" class="collapse" aria-labelledby="pfos-status" data-parent="#info-accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="fpostatus">
+                                                        <span>Active</span>
+                                                        <img src="img/icon-active.svg">
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="fpostatus">
+                                                        <span>Shutdown</span>
+                                                        <img src="img/icon-shutdown.svg">
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="fpostatus">
+                                                        <span>Newly Incorporated</span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Sponsoring Agency accordion -->
+                                <div class="card">
+                                    <a class="btn btn-link btn-block text-left collapsed" data-toggle="collapse" data-target="#sponsoring-agency" aria-expanded="false" aria-controls="sponsoring-agency">Sponsoring Agency <img class="down-arrow" src="img/drop-down-arrow.svg"></a>
+                                    <div id="sponsoring-agency" class="collapse" aria-labelledby="sponsoring-agency" data-parent="#info-accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="sponsoringagency">
+                                                        <span>SFAC</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="sponsoringagency">
+                                                        <span>NABARD</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="sponsoringagency">
+                                                        <span>Non SFAC</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="sponsoringagency">
+                                                        <span>Non SFAC NLRM</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="sponsoringagency">
+                                                        <span>Others</span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Crops accordion -->
+                                <div class="card">
+                                    <a class="btn btn-link btn-block text-left collapsed" data-toggle="collapse" data-target="#crops" aria-expanded="false" aria-controls="crops">Crops <img class="down-arrow" src="img/drop-down-arrow.svg"></a>
+                                    <div id="crops" class="collapse" aria-labelledby="crops" data-parent="#info-accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li>
+                                                    <label class="check-box check-all">
+                                                        <input type="checkbox" name="crops-list">
+                                                        <span>All</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="crops-list">
+                                                        <span>Cash Crops</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <ol>
+                                                        <li>
+                                                            <label class="check-box">
+                                                                <input type="checkbox" name="crops-list">
+                                                                <span>Sugarcane</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="check-box">
+                                                                <input type="checkbox" name="crops-list">
+                                                                <span>Cotton</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="check-box">
+                                                                <input type="checkbox" name="crops-list">
+                                                                <span>Palm Oil</span>
+                                                            </label>
+                                                        </li>
+                                                    </ol>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="crops-list">
+                                                        <span>Food Crops</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <ol>
+                                                        <li>
+                                                            <label class="check-box">
+                                                                <input type="checkbox" name="crops-list">
+                                                                <span>Maize</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="check-box">
+                                                                <input type="checkbox" name="crops-list">
+                                                                <span>Wheat</span>
+                                                            </label>
+                                                        </li>
+                                                    </ol>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Regions accordion -->
+                                <div class="card">
+                                    <a class="btn btn-link btn-block text-left collapsed" data-toggle="collapse" data-target="#regions" aria-expanded="false" aria-controls="regions">Regions <img class="down-arrow" src="img/drop-down-arrow.svg"></a>
+                                    <div id="regions" class="collapse" aria-labelledby="regions" data-parent="#info-accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li>
+                                                    <label class="check-box check-all">
+                                                        <input type="checkbox" name="regions-state">
+                                                        <span>All Regions</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="regions-state">
+                                                        <span>Andhra Pradesh</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="regions-state">
+                                                        <span>Telangana</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="regions-state">
+                                                        <span>Delhi</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="regions-state">
+                                                        <span>Arunachal Pradesh</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="regions-state">
+                                                        <span>Assam</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="regions-state">
+                                                        <span>Goa</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="regions-state">
+                                                        <span>Himachal Pradesh</span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Revenue accordion -->
+                                <div class="card">
+                                    <a class="btn btn-link btn-block text-left collapsed" data-toggle="collapse" data-target="#revenue-tab" aria-expanded="false" aria-controls="revenue-tab">Revenue <img class="down-arrow" src="img/drop-down-arrow.svg"></a>
+                                    <div id="revenue-tab" class="collapse" aria-labelledby="revenue-tab" data-parent="#info-accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li>
+                                                    <label class="radio-box">
+                                                        <input type="radio" name="revenue-state" checked>
+                                                        <span>Any</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="radio-box">
+                                                        <input type="radio" name="revenue-state">
+                                                        <span>Range</span>
+                                                    </label>
+                                                    <div id="range-slider"></div>
+                                                </li>
+                                                <li>
+                                                    <label class="radio-box">
+                                                        <input type="radio" name="revenue-state">
+                                                        <span>Above</span>
+                                                    </label>
+                                                    <div id="above-slider"></div>
+                                                </li>
+                                                <li>
+                                                    <label class="radio-box">
+                                                        <input type="radio" name="revenue-state">
+                                                        <span>Below</span>
+                                                    </label>
+                                                    <div id="below-slider"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Compliance accordion -->
+                                <div class="card">
+                                    <a class="btn btn-link btn-block text-left collapsed" data-toggle="collapse" data-target="#compliance" aria-expanded="false" aria-controls="compliance">Compliance <img class="down-arrow" src="img/drop-down-arrow.svg"></a>
+                                    <div id="compliance" class="collapse" aria-labelledby="compliance" data-parent="#info-accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="compliance-state">
+                                                        <span>Compliant</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="compliance-state">
+                                                        <span>Non - compliant</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="check-box">
+                                                        <input type="checkbox" name="compliance-state">
+                                                        <span>Unspecified</span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seved-file tab-pane fade" id="saved-col" role="tabpanel" aria-labelledby="saved-tab">
+                        <div class="aside-scroll">
+                            <ul class="seved-files">
+                                <li>
+                                    <p>FPOs setup Vs FPOs shutdown in 2019</p>
+                                    <div class="option-file">
+                                        <a class="search-tool" href="javascript:void(0);"><img src="img/icon-search.svg"> Use this</a>
+                                        <a class="search-tool delete-tool" href="javascript:void(0);"><img src="img/icon-delete.svg"> Delete</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Distribution of FPOs by sponsoring agencies</p>
+                                    <div class="option-file">
+                                        <a class="search-tool" href="javascript:void(0);"><img src="img/icon-search.svg"> Use this</a>
+                                        <a class="search-tool delete-tool" href="javascript:void(0);"><img src="img/icon-delete.svg"> Delete</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- tab content -->
+            </div>
+        </aside>
+        <!-- Sidebar view -->
+    </section>
+    <!-- body view -->
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- include the jQuery and jQuery UI scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://rawgit.com/simeydotme/jQuery-ui-Slider-Pips/master/src/js/jquery-ui-slider-pips.js"></script>
+    <!-- High chart scripts -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://rawgit.com/highcharts/rounded-corners/master/rounded-corners.js"></script>
+    <!-- custom scripts -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
